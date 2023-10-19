@@ -3,17 +3,88 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+    padding: 1rem;
+    background-color: #E3F3DF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+.logo-heading {
+    display:flex;
+    align-items: center;
+}
+
+header img {
+    width: 5rem;
+}
+
+header h2 {
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+  }
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #5B9279;
+    margin: .5rem;
+    padding: 0;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+main img {
+    margin-top: 0;
+    padding: 2rem;
+    width: 40%;
+}
+
+.intro {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main p {
+    margin: 2rem;
+    line-height: 2rem;
+}
+
+main h1{
+    margin-left: 2rem;
+    padding: 0rem;
+}
+
+
+.travel p {
+    margin: 2rem;
+    margin-top: 1rem;
+    font-size: large;
+    background-color: #f5ebe0;
+}
+
+.images {
+    margin-top: -3rem;
+    padding: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work h2 {
+    margin-top: -3rem;
+    padding: 2rem;
+    font-size: xx-large;
 }
