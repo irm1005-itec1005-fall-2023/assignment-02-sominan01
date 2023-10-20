@@ -147,3 +147,20 @@ table td {
     text-decoration: none;
   }
 
+footer h2 {
+    margin-top: -3rem;
+    padding: 2rem;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+}
+
+.end {
+    margin-top: -1rem;
+}
+
