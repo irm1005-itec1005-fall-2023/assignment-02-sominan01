@@ -103,6 +103,7 @@ table {
     margin-top: 2rem;
     width: 100%;
     border-collapse: collapse;
+    background-color: #EBF5EE;
 }
 
 table th {
@@ -115,7 +116,28 @@ table td {
     text-align: center;
 }
 
-tbody tr:nth-child(odd) {
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0rem;
+    padding: 2rem;
     background-color: #EBF5EE;
+    border-radius: 10rem;
+
 }
+
+.contact h2 {
+    margin-top: -2rem;
+}
+
+.btn{
+    padding-left:2rem;
+    background-color: #92AD94;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    text-decoration: none;
+  }
 
