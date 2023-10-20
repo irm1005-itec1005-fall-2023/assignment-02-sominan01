@@ -120,20 +120,26 @@ table td {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-    margin: 0rem;
-    padding: 2rem;
-    background-color: #EBF5EE;
-    border-radius: 10rem;
-
+    margin-top: 2rem;
 }
 
 .contact h2 {
-    margin-top: -2rem;
+    font-size: xx-large;
+}
+
+.name {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email {
+    padding-bottom: 3rem;
 }
 
 .btn{
-    padding-left:2rem;
+    display: block;
+    text-align: center;
+    margin-top: -1rem;
     background-color: #92AD94;
     color: white;
     padding: 0.5rem 1rem;
