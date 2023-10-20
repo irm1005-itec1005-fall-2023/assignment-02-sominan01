@@ -67,24 +67,55 @@ main h1{
     padding: 0rem;
 }
 
+.paragraph {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
 .travel p {
     margin: 2rem;
     margin-top: 1rem;
     font-size: large;
-    background-color: #f5ebe0;
+    background-color: #EBF5EE;
 }
 
 .images {
-    margin-top: -3rem;
-    padding: 1rem;
     display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    width:83.6%;
+    margin-top: -1.8rem;
+    padding:1rem;
 }
 
-.work h2 {
-    margin-top: -3rem;
+.experience {
     padding: 2rem;
-    font-size: xx-large;
+    margin-top: -3rem;
+    font-size: larger;
 }
+
+.organize {
+    margin-top: 1rem;
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table td {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #EBF5EE;
+}
+
