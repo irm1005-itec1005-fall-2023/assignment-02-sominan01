@@ -77,6 +77,10 @@ main h1{
     justify-content: start;
 }
 
+.travel h1{
+    font-size: 30px;
+}
+
 .travel p {
     margin: 2rem;
     margin-top: 1rem;
@@ -97,6 +101,10 @@ main h1{
     padding: 2rem;
     margin-top: -3rem;
     font-size: larger;
+}
+
+.experience h2 {
+    font-size: 30px;
 }
 
 .organize {
@@ -121,6 +129,7 @@ table td {
 }
 
 .describe h2 {
+    font-size: 30px;
     margin-top: -2rem;
     padding: 2rem;
 }
@@ -139,18 +148,20 @@ table td {
 }
 
 .contact h2 {
-    font-size: xx-large;
+    font-size: 30px;
 }
 
 .name {
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 100%;
+    font-size: 17px;
 }
 
 .email {
     padding-bottom: 3rem;
     width: 100%;
+    font-size: 17px;
 }
 
 .btn{
@@ -163,6 +174,7 @@ table td {
     border-radius: 3rem;
     text-decoration: none;
     margin-bottom:2rem;
+    font-size: 17px;
   }
 
 footer {
