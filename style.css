@@ -11,6 +11,10 @@ header {
     align-items: center;
 }
 
+main {
+    margin:25px 50px 75px 100px;
+}
+
 .logo-heading {
     display:flex;
     align-items: center;
@@ -122,8 +126,9 @@ table td {
 }
 
 .lists {
-    margin-top: -1.5rem;
+    margin-top: -1rem;
     font-size: larger;
+    margin-bottom: 7rem;
 }
 
 .contact {
@@ -140,10 +145,12 @@ table td {
 .name {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .email {
     padding-bottom: 3rem;
+    width: 100%;
 }
 
 .btn{
@@ -155,10 +162,15 @@ table td {
     padding: 0.5rem 1rem;
     border-radius: 3rem;
     text-decoration: none;
+    margin-bottom:2rem;
   }
 
+footer {
+    margin-top:5rem;
+}
+
 footer img {
-    width: 30%;
+    width: 20%;
 }
 
 footer h2 {
