@@ -116,6 +116,16 @@ table td {
     text-align: center;
 }
 
+.describe h2 {
+    margin-top: -2rem;
+    padding: 2rem;
+}
+
+.lists {
+    margin-top: -1.5rem;
+    font-size: larger;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -147,6 +157,10 @@ table td {
     text-decoration: none;
   }
 
+footer img {
+    width: 30%;
+}
+
 footer h2 {
     margin-top: -3rem;
     padding: 2rem;
@@ -158,6 +172,7 @@ footer nav ul {
 
 footer nav ul li a{
     text-decoration: none;
+    color:black;
 }
 
 .end {
